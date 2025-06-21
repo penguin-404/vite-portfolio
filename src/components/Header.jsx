@@ -53,7 +53,7 @@ export default function Header() {
         </div>
 
         {/* Dark Mode Toggle on the far right */}
-        <div className="ml-auto">
+        <div className="ml-auto hidden sm:flex">
           <Toggle />
         </div>
       </nav>

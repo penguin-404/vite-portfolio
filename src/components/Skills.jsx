@@ -11,7 +11,7 @@ export default function Skills() {
   ];
 
   return (
-    <div className="h-[75vh] bg-gray-800 text-white px-6 py-12">
+    <div className="h-[75vh] bg-white text-black  dark:bg-gray-800 dark:text-white px-6 py-12">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-10 text-orange-400 text-left">My Skills</h1>
 
@@ -21,7 +21,7 @@ export default function Skills() {
               key={idx}
               className="bg-gray-900 rounded-lg p-4 flex items-center justify-center shadow-md hover:shadow-orange-400 transition-shadow cursor-default"
             >
-              <p className="text-lg font-medium">{skill}</p>
+              <p className="text-lg text-white font-medium">{skill}</p>
             </div>
           ))}
         </div>

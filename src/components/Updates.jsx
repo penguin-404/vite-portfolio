@@ -6,7 +6,7 @@ export default function Updates() {
   ];
 
   return (
-    <div className="h-[75vh] bg-gray-800 text-white px-6 py-12">
+    <div className="h-[75vh] bg-white text-black  dark:bg-gray-800 dark:text-white px-6 py-12">
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-orange-400 text-left">Updates</h1>
 

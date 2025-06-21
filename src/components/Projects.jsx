@@ -23,7 +23,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className="h-[75vh] bg-gray-800 text-white px-6 py-12">
+    <div className="h-[75vh] bg-white text-black  dark:bg-gray-800 dark:text-white px-6 py-12">
       <div className="max-w-5xl mx-auto">
         <h1 className="text-3xl font-bold mb-8 text-orange-400">Projects</h1>
 
@@ -36,7 +36,7 @@ export default function Projects() {
               rel="noopener noreferrer"
               className="block p-6 bg-gray-900 rounded-lg shadow-lg hover:shadow-orange-500 transition-shadow duration-300"
             >
-              <h2 className="text-xl font-semibold mb-2">{title}</h2>
+              <h2 className="text-xl text-white font-semibold mb-2">{title}</h2>
               <p className="text-gray-300">{description}</p>
               <p className="mt-4 text-orange-400 font-semibold hover:underline">
                 View on GitHub →

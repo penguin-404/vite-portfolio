@@ -8,6 +8,7 @@ import Education from './components/Education.jsx'
 import Projects from './components/Projects.jsx'
 import Skills from './components/Skills.jsx'
 import Home from './components/Home.jsx'
+import Updates from './components/Updates.jsx'
 
 createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -18,6 +19,7 @@ createRoot(document.getElementById('root')).render(
          <Route path='projects' element={<Projects />}/>
          <Route path='skills' element={<Skills />}/>
          <Route path='contact' element={<Contact />}/>
+         <Route path='updates' element={<Updates />}/>
       </Route>
     </Routes>
   </BrowserRouter>

@@ -28,8 +28,8 @@ const Home = () => {
             CSS and I are in a love-hate relationship.
           </li>
           <li className="mt-6">
-            <Link to="/projects" className="text-orange-400 font-semibold hover:underline">
-              Click here to see what I’ve <span className="line-through">broken</span> built recently →
+            <Link to="/updates" className="text-orange-400 font-semibold hover:underline">
+              See what I'm working on right now →
             </Link>
           </li>
         </ul>

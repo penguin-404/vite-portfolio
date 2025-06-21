@@ -8,7 +8,7 @@ export default function Header() {
     } hover:text-orange-400`;
 
   return (
-    <header className="shadow sticky top-0 z-50 bg-white dark:bg-gray-800 text-black dark:text-shadow-white transition-colors duration-500">
+    <header className="shadow sticky top-0 z-50 bg-white dark:bg-gray-800 text-black dark:text-shadow-white">
       <nav className="max-w-screen-xl mx-auto px-8 lg:px-60 py-7 flex items-center justify-between">
         {/* Centered content container */}
         <div className="flex-1 flex justify-center">

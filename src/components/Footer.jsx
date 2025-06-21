@@ -3,11 +3,11 @@ import {Link,NavLink} from 'react-router'
 
 export default function Footer() {
     return (
-        <footer className="bg-white dark:bg-gray-800 ">
+        <footer className="bg-white dark:bg-gray-800 text-black  dark:text-white ">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <hr className="my-3 border-gray-200 sm:mx-auto lg:my-3" />
+                <hr className="my-3 border-black dark:border-white sm:mx-auto lg:my-3" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-white sm:text-center">
+                    <span className="text-sm text-black dark:text-white sm:text-center">
                         © 2025 &nbsp;
                         <a href="https://kaushalyadav.com.np/" className="hover:underline">
                             Kaushal Yadav
@@ -15,7 +15,7 @@ export default function Footer() {
                         . All Rights Reserved.
                     </span>
                     <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-                        <a href="https://www.linkedin.com/in/imkaushall/" target='_blank' className="text-white hover:text-orange-400">
+                        <a href="https://www.linkedin.com/in/imkaushall/" target='_blank' className=" text-black  dark:text-white   hover:text-orange-400">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"
@@ -37,7 +37,7 @@ export default function Footer() {
                             </svg>
                             <span className="sr-only">LinkedIn page</span>
                         </a>
-                        <a href="https://github.com/penguin-404/" target='_blank' className="text-white hover:text-orange-400">
+                        <a href="https://github.com/penguin-404/" target='_blank' className="text-black dark:text-white hover:text-orange-400">
                             <svg
                                 className="w-4 h-4"
                                 aria-hidden="true"

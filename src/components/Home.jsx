@@ -10,16 +10,13 @@ const Home = () => {
             Hi, I’m <span className="text-orange-400 font-bold">Kaushal</span>. 
           </li>
           <li className="before:content-['-'] before:mr-2">
-            Reacting to bugs with <span className="font-semibold">React</span>.
+            Crafting interfaces with <span className="font-semibold">React</span>.
           </li>
           <li className="before:content-['-'] before:mr-2">
             <span className="font-semibold">Next.js</span> developer by day, debugger by night.
           </li>
           <li className="before:content-['-'] before:mr-2">
-            <span className="font-semibold">Linux</span> user: because I like living on the edge.
-          </li>
-          <li className="before:content-['-'] before:mr-2">
-            <span className="font-semibold text-orange-400">JavaScript</span> is my love language.
+             Running <span className="font-semibold">Linux</span>, writing JavaScript — loving both.
           </li>
           
           <li className="mt-6">

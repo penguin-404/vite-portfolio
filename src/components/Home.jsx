@@ -10,13 +10,13 @@ const Home = () => {
             Hi, I’m <span className="text-orange-400 font-bold">Kaushal</span>. 
           </li>
           <li className="before:content-['-'] before:mr-2">
-            Crafting interfaces with <span className="font-semibold">React</span>.
+            Crafting interfaces with <span className="font-semibold text-orange-300">React</span>.
           </li>
           <li className="before:content-['-'] before:mr-2">
-            <span className="font-semibold">Next.js</span> developer by day, debugger by night.
+            <span className="font-semibold text-orange-300">Next.js</span> developer by day, debugger by night.
           </li>
           <li className="before:content-['-'] before:mr-2">
-             Running <span className="font-semibold">Linux</span>, writing JavaScript — loving both.
+             Running <span className="font-semibold text-orange-300">Linux</span>, writing JavaScript — loving both.
           </li>
           
           <li className="mt-6">

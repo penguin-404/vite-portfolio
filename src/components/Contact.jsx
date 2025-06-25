@@ -73,7 +73,7 @@ export default function Contact() {
               </div>
             </div>
 
-            {/* Right Side (Minimal) */}
+            {/* Right Side */}
             <div className="p-6 flex flex-col justify-center items-center bg-white dark:bg-gray-800">
               <a
                 href="mailto:madebykaushal@gmail.com"

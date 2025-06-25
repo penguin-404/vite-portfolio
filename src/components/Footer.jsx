@@ -7,14 +7,14 @@ export default function Footer() {
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 <hr className="my-3 border-black dark:border-white sm:mx-auto lg:my-3" />
                 <div className="sm:flex sm:items-center sm:justify-between">
-                    <span className="text-sm text-black dark:text-white hidden sm:flex">
+                    <span className="text-sm text-black dark:text-white">
                         © 2025 &nbsp;
                         <a href="https://kaushalyadav.com.np/" className="hover:underline">
                             Kaushal Yadav
                         </a>
                         . All Rights Reserved.
                     </span>
-                    <div className="flex flex-wrap items-center justify-between gap-4 sm:justify-evenly">
+                    <div className="sm:flex flex-wrap items-center justify-between gap-4 hidden">
                         <a href="https://www.linkedin.com/in/imkaushall/" target='_blank' className=" text-black  dark:text-white   hover:text-orange-400">
                             <svg
                                 className="w-4 h-4"

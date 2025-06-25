@@ -5,11 +5,13 @@ import { Outlet } from 'react-router'
 
 function Layout() {
   return (
-    <>
-    <Header />
-    <Outlet />
-    <Footer />
-    </>
+    <div className="min-h-screen flex flex-col bg-white dark:bg-gray-800 text-black dark:text-white">
+      <Header />
+      <div className="flex-grow">
+        <Outlet />
+      </div>
+      <Footer />
+    </div>
   )
 }
 

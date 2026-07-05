@@ -1,31 +1,51 @@
 export default function Skills() {
-  const skills = [
-    'JavaScript (ES6+)',
-    'React & Next.js',
-    'Node.js & Express',
-    'Git & Version Control',
-    'Linux Command Line',
-    'Tailwind CSS',
-    'RESTful APIs',
-    'MongoDB & SQL',
+  const groups = [
+    {
+      label: 'Languages & Runtime',
+      items: ['JavaScript (ES6+)', 'TypeScript', 'Node.js'],
+    },
+    {
+      label: 'Backend & APIs',
+      items: ['Express.js', 'REST APIs', 'JWT & OAuth', 'WebSockets'],
+    },
+    {
+      label: 'Data',
+      items: ['MongoDB', 'PostgreSQL', 'Redis', 'Mongoose / Prisma'],
+    },
+    {
+      label: 'Systems & Tooling',
+      items: ['Docker', 'Git & CI/CD', 'Linux', 'System Design Basics'],
+    },
   ];
 
   return (
-    <div className="h-[75vh] bg-white text-black  dark:bg-gray-800 dark:text-white px-6 py-12">
+    <section id="stack" className="px-6 py-20">
       <div className="max-w-4xl mx-auto">
-        <h1 className="text-3xl font-bold mb-10 text-orange-400 text-left">My Skills</h1>
+        <p className="font-mono text-xs tracking-widest uppercase text-[#B45309] dark:text-[#FBBF24] mb-2">
+          GET /stack
+        </p>
+        <h2 className="text-2xl font-bold text-[#1B1F27] dark:text-[#E8E6DE] mb-10">What I build with</h2>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-          {skills.map((skill, idx) => (
-            <div
-              key={idx}
-              className="bg-gray-900 rounded-lg p-4 flex items-center justify-center shadow-md hover:shadow-orange-400 transition-shadow cursor-default"
-            >
-              <p className="text-lg text-white font-medium">{skill}</p>
+        <div className="grid sm:grid-cols-2 gap-8">
+          {groups.map((group) => (
+            <div key={group.label}>
+              <h3 className="font-mono text-xs uppercase tracking-wide text-[#6B7280] dark:text-[#8A8F98] mb-3">
+                {group.label}
+              </h3>
+              <ul className="space-y-2">
+                {group.items.map((item) => (
+                  <li
+                    key={item}
+                    className="rounded-md border border-black/[0.08] dark:border-white/[0.08] bg-white dark:bg-[#151719] px-4 py-3 text-sm text-[#1B1F27] dark:text-[#E8E6DE] hover:border-[#16A34A]/40 dark:hover:border-[#4ADE80]/40 transition-colors"
+                  >
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 }
